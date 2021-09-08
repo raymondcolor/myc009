@@ -1,14 +1,17 @@
-body {
-    font-family: Arial, serif;
+@font-face {
+    font-family: Montserrat;
+    src: url(./font/Montserrat/Montserrat-ExtraLightItalic.ttf);
 }
 
 .blog {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
-    height: 1000px;
-    width: 95%;
-    margin: auto;
-    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+h2 {
+    font-family: Montserrat;
 }
 
 .content {
@@ -22,4 +25,51 @@ body {
     height: 250px;
     width: 100%;
     box-sizing: border-box;
+}
+
+
+/* .navbar-brand {
+    padding: 10px;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 50px;
+}
+
+.nav-item {
+    background-color: white;
+    text-align: center;
+    width: 200px;
+} */
+
+
+/*
+.nav-item {
+    background-color: saddlebrown;
+}
+
+.navbar-expand-lg {
+    background-color: saddlebrown;
+    padding: 30px;
+}*/
+
+
+/* .navbar-toggler-icon {
+    font-size: 20px;
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: black;
+} */
+
+.nav-ctn {
+    background-color: rgb(65, 124, 6);
+    height: 100pxpx;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
 }
